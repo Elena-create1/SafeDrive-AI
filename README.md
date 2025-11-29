@@ -19,41 +19,43 @@
 
 **Рекомендуемая версия:** Python 3.10
 
-1. Получение исходного кода
-bash
+1. Получение исходного кода (bash)
 
-git clone https://github.com/Elena-create1/SafeDrive-AI.git
+> git clone https://github.com/Elena-create1/SafeDrive-AI.git
 
-cd SafeDrive-AI
+> cd SafeDrive-AI
+
 
 2. Создание виртуального окружения
 
 **Windows:**
 
-bash
-python -m venv venv
-venv\Scripts\activate
+> python -m venv venv
+> venv\Scripts\activate
 
 **Linux/macOS:**
 
-bash
-python3 -m venv venv
-source venv/bin/activate
+> python3 -m venv venv
+> source venv/bin/activate
 
 После активации виртуального окружения в начале строки терминала появится пометка (venv).
 
 
 3. Установка зависимостей
-bash
-pip install --upgrade pip
-pip install -r requirements.txt
+
+> pip install --upgrade pip
+> pip install -r requirements.txt
+
+
 4. Подготовка звуковых файлов
 Убедитесь, что в корневой директории проекта присутствуют звуковые файлы с предупреждениями на русском языке: Закрыл_глаза.mp3, Внимание_на_дорогу.mp3, Перерыв.mp3
 Файлы должны быть в формате MP3 и правильно закодированы для воспроизведения через pygame.
 
+
 5. Запуск системы
 python main.py
 При первом запуске будут созданы необходимые директории (logs) и файлы. Убедитесь, что камера доступна и не занята другими приложениями.
+
 
 6. ESC - выход из приложения
 
