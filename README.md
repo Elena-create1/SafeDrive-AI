@@ -28,13 +28,13 @@ cd SafeDrive-AI
 
 2. Создание виртуального окружения
 
-** Windows: **
+**Windows:**
 
 bash
 python -m venv venv
 venv\Scripts\activate
 
-** Linux/macOS: **
+**Linux/macOS:**
 
 bash
 python3 -m venv venv
