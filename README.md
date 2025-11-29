@@ -21,6 +21,7 @@
 
 1. Получение исходного кода
 bash
+
 git clone https://github.com/Elena-create1/SafeDrive-AI.git
 cd SafeDrive-AI
 2. Создание виртуального окружения
